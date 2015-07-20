@@ -13,6 +13,8 @@
 		81DF7E6F1B5D657800196D85 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81DF7E6E1B5D657800196D85 /* Images.xcassets */; };
 		81DF7E721B5D657800196D85 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 81DF7E701B5D657800196D85 /* LaunchScreen.xib */; };
 		81DF7E7E1B5D657800196D85 /* CocoaFeedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81DF7E7D1B5D657800196D85 /* CocoaFeedTests.swift */; };
+		81DF7E8A1B5D68ED00196D85 /* new-pods.json in Resources */ = {isa = PBXBuildFile; fileRef = 81DF7E891B5D68ED00196D85 /* new-pods.json */; };
+		81DF7E8C1B5D6CCD00196D85 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81DF7E8B1B5D6CCD00196D85 /* DataManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		81DF7E771B5D657800196D85 /* CocoaFeedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CocoaFeedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		81DF7E7C1B5D657800196D85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		81DF7E7D1B5D657800196D85 /* CocoaFeedTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocoaFeedTests.swift; sourceTree = "<group>"; };
+		81DF7E891B5D68ED00196D85 /* new-pods.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "new-pods.json"; sourceTree = "<group>"; };
+		81DF7E8B1B5D6CCD00196D85 /* DataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +87,8 @@
 				81DF7E6E1B5D657800196D85 /* Images.xcassets */,
 				81DF7E701B5D657800196D85 /* LaunchScreen.xib */,
 				81DF7E651B5D657800196D85 /* Supporting Files */,
+				81DF7E891B5D68ED00196D85 /* new-pods.json */,
+				81DF7E8B1B5D6CCD00196D85 /* DataManager.swift */,
 			);
 			path = CocoaFeed;
 			sourceTree = "<group>";
@@ -194,6 +200,7 @@
 			files = (
 				81DF7E6D1B5D657800196D85 /* Main.storyboard in Resources */,
 				81DF7E721B5D657800196D85 /* LaunchScreen.xib in Resources */,
+				81DF7E8A1B5D68ED00196D85 /* new-pods.json in Resources */,
 				81DF7E6F1B5D657800196D85 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -213,6 +220,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				81DF7E6A1B5D657800196D85 /* ViewController.swift in Sources */,
+				81DF7E8C1B5D6CCD00196D85 /* DataManager.swift in Sources */,
 				81DF7E681B5D657800196D85 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
